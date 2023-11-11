@@ -1,0 +1,64 @@
+# Virtual environments
+.venv
+/frontend_react/.env
+
+# React Modules
+/frontend_react/node_modules
+/frontend_react/package-lock.json
+
+# Test Certifiactes
+/frontend_react/*.crt
+/frontend_react/*.key
+
+# React Test files
+
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+
+# Backups
+*.bak 
+
+# Python 
+*.py[cod] 
+*$py.class 
+
+# Python Distributions
+.Python build/ 
+develop-eggs/ 
+dist/ 
+downloads/ 
+eggs/ 
+.eggs/ 
+lib/ 
+lib64/ 
+parts/ 
+sdist/ 
+var/ 
+wheels/ 
+*.egg-info/ 
+.installed.cfg 
+*.egg 
+*.manifest 
+*.spec 
+
+# Pip Logs
+pip-log.txt 
+pip-delete-this-directory.txt 
+
+# Test Cache
+htmlcov/ 
+.tox/ 
+.coverage 
+.coverage.* 
+.cache 
+.pytest_cache/ 
+nosetests.xml 
+coverage.xml 
+*.cover 
+.hypothesis/ 
