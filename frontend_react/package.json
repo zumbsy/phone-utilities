@@ -24,7 +24,7 @@
     "web-vitals": "^3.5.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start --port 1337",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
