@@ -9,7 +9,7 @@ const MapTracker = () => {
   const [isTracking, setIsTracking] = useState(false);
   const [trackingList, setTrackingList] = useState([]);
   const [time, setTime] = useState(false);
-  const [mapCenter, setMapCenter] = useState([49.597, 9.874]);
+  const [mapCenter, setMapCenter] = useState([49.783333, 9.933333]);
 
   const getLocation = () => {
     if (navigator.geolocation) {
